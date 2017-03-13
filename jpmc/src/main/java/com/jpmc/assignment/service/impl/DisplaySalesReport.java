@@ -44,6 +44,14 @@ public class DisplaySalesReport {
 							+ details.getAdustmentValue());
 					System.out.println("");
 				}
+			}else{
+				System.out.print("Product Type :: "
+						+ report.getProductType().getValue()
+						+ ", Adjustment Operation :: "
+						+ "No Adjustment"
+						+ ", Adjustment Amount :: "
+						+ "0");
+				System.out.println("");
 			}
 		}
 		System.out
